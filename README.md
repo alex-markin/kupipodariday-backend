@@ -1,4 +1,4 @@
-# Project Name
+# KupiPodariDay Project
 
 A Nest.js build for the backend of KupiPodariDay project. Completed as a student project in Yandex.Practicum. 
 
