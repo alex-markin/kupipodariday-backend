@@ -58,14 +58,6 @@ export class WishesService {
     }
   }
 
-  // ДЛЯ РЕВЬЮЕРА - тут есть ошибка фронта, поэтому сейчас не подтягивается имя поддержавшего.
-  // фронт сейчас ищет name из offers, но там нет name, есть user.username
-  // нужно либо вносить изменения во фронт или делать backend не по ТЗ
-  // {wishData?.offers?.length ? (
-  //   wishData?.offers?.map(({ name, amount, createdAt }) => (
-  //     <UserSupportedCard name={name} amount={amount} date={createdAt} />
-  //   ))
-  // )
   async findWishById(id: number) {
     try {
       const wish = await this.wishRepository.findOne({
