@@ -6,8 +6,10 @@ A Nest.js build for the backend of KupiPodariDay project. Completed as a student
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Swagger information](#swagger)
+- [Features](#features)
+
+
 
 ## Installation
 
